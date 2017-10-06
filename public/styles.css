@@ -1,0 +1,84 @@
+.body {
+    background-color: #263238;
+}
+.page-content {
+    background-color: white;
+}
+
+.mdl-card.mdl-card {
+    width: 100%;
+}
+.mdl-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: black;
+}
+.mdl-card > .mdl-card__title .mdl-card__title-text {
+    font-size: 2.5rem;
+}
+.mdl-card > .mdl-card__supporting-text {
+    font-size: 1.15rem;
+    line-height: 1.4rem;
+}
+.mdl-card > .mdl-card__actions a {
+    font-size: 1rem;
+}
+
+.mdl-mega-footer {
+    padding: 16px;
+    color: white;
+    background: linear-gradient(to bottom, #37474f 0%, #263238 100%);
+}
+.mdl-mega-footer a {
+    color: white;
+}
+.mdl-mega-footer .logo {
+    float: right;
+}
+.mdl-card__menu {
+    color: #fff;
+}
+
+/* Goodmoves */
+.goodmoves-card-wide > .mdl-card__title {
+    background: linear-gradient(180deg,#58a934 0,#529423 45%,#529423 0,#1d560d);
+}
+
+/* Funding Scotland */
+.fundingscotland-card-wide > .mdl-card__title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('http://fundingscotland.blob.core.windows.net/www/banner-back.png');
+    background-size: cover;
+}
+
+/* Kibble */
+.kibble-card-wide > .mdl-card__title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://www.kibble.org/wp-content/uploads/2016/11/Research4.jpg');
+    background-size: cover;
+}
+
+/* Good HQ */
+.goodhq-card-wide > .mdl-card__title {
+    background: #4033E9;
+}
+
+/* SCVO */
+.scvo-card-wide > .mdl-card__title {
+    background: #00838f;
+}
+
+/* Project Scotland */
+.projectscotland-card-wide > .mdl-card__title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://www.projectscotland.co.uk/wp-content/uploads/2013/04/projectscotland-boy2-960x300.jpg');
+    background-size: cover;
+}
+
+/* Good.scot */
+.goodscot-card-wide > .mdl-card__title {
+    background: #5c315e;
+}
+
+/* The Experience */
+.experience-card-wide > .mdl-card__title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75)), url('https://www.theexperience.org.uk/wp-content/uploads/2015/05/Home_Banner_Image.jpg');
+    background-size: cover;
+}
