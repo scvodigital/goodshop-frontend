@@ -1,8 +1,11 @@
-language: generic
+language: node_js
 
 branches:
   only:
   - release
+
+node_js:
+  - "8.4"
 
 script:
   - firebase deploy --only "hosting" --token ${FIREBASE_TOKEN} --non-interactive
