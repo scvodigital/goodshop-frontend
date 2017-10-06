@@ -1,0 +1,8 @@
+language: generic
+
+branches:
+  only:
+  - release
+
+script:
+  - firebase deploy
