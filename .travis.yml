@@ -5,4 +5,4 @@ branches:
   - release
 
 script:
-  - firebase deploy
+  - firebase deploy --only "hosting" --token ${FIREBASE_TOKEN} --non-interactive
